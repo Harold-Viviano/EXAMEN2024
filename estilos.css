@@ -1,0 +1,123 @@
+main {   max-width: auto;
+}
+main header {
+    display: flex;
+    background-color: black;
+}
+main header img {
+    width: 80px;    
+    height: 30px;
+    margin: 50px;
+}
+main header input {
+    width: 100%;
+
+  }
+main HEADER input[type=text] {
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+.menuCabecera{
+    display: flex;
+    padding-top: 10px;
+}
+.menuCabecera li {
+    list-style-type: none;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-family: 'SST', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: gray;
+}
+.menuCabecera li:hover {
+    color: black;
+}
+header input {
+    width: 80px;
+    margin-top: 30px;
+    max-height: 20px;
+}
+nav {
+    background-color:white;
+}
+
+nav ol {
+    display: flex;
+    font-family: 'SST   ', sans-serif;
+    list-style-type: none;
+    font-size: 11px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    color : gray;
+    text-align: center;
+}
+
+.seccionBanner {
+    background-image: url(img/banner.jpg);
+    height: 440px;
+}
+
+nav ol li {
+    margin: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 0px;
+    color: #dddddd;
+    font-size: 10px;
+    padding-top: 50px;
+    margin-left: 50px;
+    font-weight: lighter;
+    font-family: 'SST',sans-serif;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-top:10px;
+    width: 450px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+button {
+    margin-left: 50px;
+    background-color: #5787f4 ;
+    border-color: #5787f4 ;
+    color:white;
+    outline: none;
+    box-shadow: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+}
+
+.seccionPromo {
+    margin-top: 20px;
+    font-family: 'SST', sans-serif;
+}
+
+.seccionPromo header {
+    background-color: rgb(243, 221, 221);
+}
+
+.seccionPromo header ul {
+    display: flex;
+    text-transform: uppercase;
+    list-style-type: none;
+    color: black;
+    font-size: 12px;
+}
+
+.seccionPromo header ul li {
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+
+
